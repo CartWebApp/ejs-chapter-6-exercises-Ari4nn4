@@ -7,9 +7,12 @@ Give the class a static from method that takes an iterable object as argument an
 */
 
 class Group {
-    // Your code here.
+  constructor(food,sushi){
+    this.food=food
+    this.sushi=sushi;
   }
-  
+
+}
 
   // Tests:
   let group = Group.from([10, 20]);

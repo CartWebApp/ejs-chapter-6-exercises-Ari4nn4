@@ -4,8 +4,6 @@
 
 // Add a getter property length to the prototype that computes the length of the vector—that is, the distance of the point (x, y) from the origin (0, 0).
 
-// Your code here.
-
 
 // Tests:
 console.log(new Vec(1, 2).plus(new Vec(2, 3)));

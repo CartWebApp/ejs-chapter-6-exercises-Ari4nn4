@@ -6,7 +6,22 @@ If you used an array to represent the group’s members, don’t just return the
 It is okay if your iterator behaves strangely when the group is modified during iteration.
 */
 
-// Your code here (and the code from the previous exercise)
+class Group {
+  constructor(food,sushi){
+    this.food=food
+    this.sushi=sushi;
+  }
+  next(){
+    if(this.sushi==this.meal.height)return{done:true};
+    let vaule={food:this.food,
+  sushi:this.sushi
+    constructor(meal){
+      this.food=0;
+      this.sushi=0;
+      this.meal=meal;
+  }}
+  
+  
 
 
 // Tests:
