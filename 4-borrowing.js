@@ -4,6 +4,7 @@ The chapter mentioned that an object’s hasOwnProperty can be used as a more ro
 Can you think of a way to call hasOwnProperty on an object that has its own property by that name?
 */
 
+
 let map = {one: true, two: true, hasOwnProperty: true};
 
 // !!! Fix the call code below, do not modify the object above. !!!

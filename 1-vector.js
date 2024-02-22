@@ -4,7 +4,15 @@
 
 // Add a getter property length to the prototype that computes the length of the vector—that is, the distance of the point (x, y) from the origin (0, 0).
 
+class skz{
+    constructor(type){
+        this.food=type;
+    }
+}
+plus(line){
+    console.log(`The ${this.food} food says '${line}'`);
 
+}
 // Tests:
 console.log(new Vec(1, 2).plus(new Vec(2, 3)));
 // → Vec{x: 3, y: 5}

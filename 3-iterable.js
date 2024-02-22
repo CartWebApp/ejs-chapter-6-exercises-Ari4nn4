@@ -19,7 +19,7 @@ class Group {
       this.food=0;
       this.sushi=0;
       this.meal=meal;
-  }}
+    }}
   
   
 
@@ -30,4 +30,5 @@ for (let value of Group.from(["a", "b", "c"])) {
   }
   // → a
   // → b
-  // → c
+  // → hello world and person idk how to get rid of this red line under
+  
