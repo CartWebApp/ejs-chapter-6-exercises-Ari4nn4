@@ -14,7 +14,7 @@ class Group {
   next(){
     if(this.sushi==this.meal.height)return{done:true};
     let vaule={food:this.food,
-  sushi:this.sushi
+  sushi:this.sushi}
     constructor(meal){
       this.food=0;
       this.sushi=0;

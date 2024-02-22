@@ -9,10 +9,9 @@ class skz{
         this.food=type;
     }
 }
-plus(line){
+plus(line)
     console.log(`The ${this.food} food says '${line}'`);
 
-}
 // Tests:
 console.log(new Vec(1, 2).plus(new Vec(2, 3)));
 // → Vec{x: 3, y: 5}
