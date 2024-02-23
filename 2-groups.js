@@ -11,7 +11,6 @@ class Group {
     this.food=food
     this.sushi=sushi;
   }
-
 }
 
   // Tests:

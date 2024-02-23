@@ -8,9 +8,21 @@ class skz{
     constructor(type){
         this.food=type;
     }
+
 }
 plus(line)
     console.log(`The ${this.food} food says '${line}'`);
+    let (value) 
+        this.food=food
+        this.sushi=sushi
+        type
+    //pyathagorean theorem!!!!!
+
+
+
+
+
+
 
 // Tests:
 console.log(new Vec(1, 2).plus(new Vec(2, 3)));
