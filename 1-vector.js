@@ -4,18 +4,15 @@
 
 // Add a getter property length to the prototype that computes the length of the vector—that is, the distance of the point (x, y) from the origin (0, 0).
 
-class skz{
-    constructor(type){
-        this.food=type;
-    }
-
-}
-plus(line)
-    console.log(`The ${this.food} food says '${line}'`);
-    let (value) 
-        this.food=food
-        this.sushi=sushi
-        type
+function ArraySeq(array) {
+	this.sequence = array.slice();
+    this.iteration = 1;
+    function RangeSeq(from, to) {
+ 	var range = [];
+ 	for (var i = from; i <= to; i+= 1){
+ 		range.push(i);
+logFive( ArraySeq([1, 2]))
+        
     //pyathagorean theorem!!!!!
 
 
