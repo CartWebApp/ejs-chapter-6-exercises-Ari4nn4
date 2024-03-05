@@ -19,9 +19,13 @@ class Group(console.log)
       this.food=0;
       this.sushi=0;
       this.meal=meal;
-    
-  
-  
+    function Sequence(sequence) {
+  this.sequence = sequence;}
+Sequence.prototype.start = function(){for ( var item in this.sequence ){console.log(this.sequence[item]);
+	}
+} function ArraySeq(sequence) {
+  Sequence.call(this, sequence);
+}
 
 
 // Tests:
