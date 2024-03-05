@@ -3,7 +3,18 @@ The chapter mentioned that an object’s hasOwnProperty can be used as a more ro
 
 Can you think of a way to call hasOwnProperty on an object that has its own property by that name?
 */
+function RangeSeq(from, to) {
+ 	var range = [];
+ 	for (var i = from; i <= to; i+= 1){
+ 		range.push(i);
+ 	}
+ 	ArraySeq.call(this, range);
+ } 
+ RangeSeq.prototype = Object.create(ArraySeq.prototype);
 
+ function logFive(seqObj){
+ 	console.log(seqObj.current());
+ 	for (var i = 1; i <= 4; i+= 1)
 
 let map = {one: true, two: true, hasOwnProperty: true};
 
