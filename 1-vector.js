@@ -3,16 +3,22 @@
 // Give the Vec prototype two methods, plus and minus, that take another vector as a parameter and return a new vector that has the sum or difference of the two vectors’ (this and the parameter) x and y values.
 
 // Add a getter property length to the prototype that computes the length of the vector—that is, the distance of the point (x, y) from the origin (0, 0).
-
-function ArraySeq(array) {
-	this.sequence = array.slice();
-    this.iteration = 1;
     function RangeSeq(from, to) {
  	var range = [];
  	for (var i = from; i <= to; i+= 1){
  		range.push(i);
 logFive( ArraySeq([1, 2]))
-        
+        function Vector(x,y) {
+	this.x = x;
+	this.y = y;
+}
+Vector.prototype.plus = function(vector){
+	return { x: this.x + vector["x"], y: this.y + vector["y"] };	
+} 
+Vector.prototype.minus = function(vector){
+	return { x: this.x - vector["x"], y: this.y - vector["y"] };	
+} 
+
     //pyathagorean theorem!!!!!
 
 
