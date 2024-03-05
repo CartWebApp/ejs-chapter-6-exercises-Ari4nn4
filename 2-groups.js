@@ -12,6 +12,15 @@ class Group {
     this.sushi=sushi;
   }
 }
+function ArraySeq(array) {
+	this.sequence = array.slice();
+    this.iteration = 1;
+    function RangeSeq(from, to) {
+ 	var range = [];
+ 	for (var i = from; i <= to; i+= 1){
+ 		range.push(i);
+logFive( ArraySeq([1, 2]))
+        
 
   // Tests:
   let group = Group.from([10, 20]);
